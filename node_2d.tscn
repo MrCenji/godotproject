@@ -1,6 +1,9 @@
-[gd_scene load_steps=2 format=3 uid="uid://cyu8mdpfitfns"]
+[gd_scene load_steps=3 format=3 uid="uid://cyu8mdpfitfns"]
 
 [ext_resource type="Texture2D" uid="uid://gs1vguiaeb1" path="res://icon.svg" id="1_q4jer"]
+
+[sub_resource type="CanvasItemMaterial" id="CanvasItemMaterial_4pbir"]
+blend_mode = 1
 
 [node name="Node2D" type="Node2D"]
 
@@ -9,3 +12,6 @@
 [node name="Icon" type="Sprite2D" parent="."]
 position = Vector2(603, 328)
 texture = ExtResource("1_q4jer")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+material = SubResource("CanvasItemMaterial_4pbir")
