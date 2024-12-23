@@ -1,4 +1,4 @@
-[gd_scene load_steps=2 format=3 uid="uid://d0j032a4j52co"]
+[gd_scene load_steps=2 format=3 uid="uid://b7inap5yp167f"]
 
 [ext_resource type="Script" path="res://mainmenu.gd" id="1_2hynp"]
 
@@ -13,8 +13,10 @@ script = ExtResource("1_2hynp")
 
 [node name="MarginContainer" type="MarginContainer" parent="."]
 layout_mode = 0
-offset_right = 40.0
-offset_bottom = 40.0
+offset_left = 492.0
+offset_top = 183.0
+offset_right = 562.0
+offset_bottom = 284.0
 
 [node name="VBoxContainer" type="VBoxContainer" parent="MarginContainer"]
 layout_mode = 2
