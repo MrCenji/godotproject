@@ -1,17 +1,35 @@
-[gd_scene load_steps=3 format=3 uid="uid://cyu8mdpfitfns"]
+[gd_scene load_steps=5 format=3 uid="uid://cyu8mdpfitfns"]
 
 [ext_resource type="Texture2D" uid="uid://gs1vguiaeb1" path="res://icon.svg" id="1_q4jer"]
+[ext_resource type="PackedScene" uid="uid://b3m3xvjfafgid" path="res://character_body_2d.tscn" id="2_i3lwp"]
 
 [sub_resource type="CanvasItemMaterial" id="CanvasItemMaterial_4pbir"]
 blend_mode = 1
+
+[sub_resource type="WorldBoundaryShape2D" id="WorldBoundaryShape2D_cex4c"]
 
 [node name="Node2D" type="Node2D"]
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
 
 [node name="Icon" type="Sprite2D" parent="."]
-position = Vector2(603, 328)
+visible = false
+position = Vector2(1094, 118)
 texture = ExtResource("1_q4jer")
 
 [node name="Sprite2D" type="Sprite2D" parent="."]
 material = SubResource("CanvasItemMaterial_4pbir")
+
+[node name="Player" parent="." instance=ExtResource("2_i3lwp")]
+position = Vector2(549, 342)
+scale = Vector2(10, 10)
+
+[node name="Camera2D" type="Camera2D" parent="Player"]
+position = Vector2(0, -5.4)
+
+[node name="StaticBody2D" type="StaticBody2D" parent="."]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="StaticBody2D"]
+position = Vector2(551, 387)
+scale = Vector2(10, 10)
+shape = SubResource("WorldBoundaryShape2D_cex4c")
