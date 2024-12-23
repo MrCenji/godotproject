@@ -11,7 +11,11 @@ config_version=5
 [application]
 
 config/name="ProjectDiddy"
+<<<<<<< HEAD
 run/main_scene="res://node_2d.tscn"
+=======
+run/main_scene="res://options_menu.tscn"
+>>>>>>> c43bb438bd91b4a50776413a6b64fa06454ddfac
 config/features=PackedStringArray("4.3", "Forward Plus")
 config/icon="res://icon.svg"
 
