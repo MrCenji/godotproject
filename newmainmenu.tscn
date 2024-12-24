@@ -1,4 +1,4 @@
-[gd_scene load_steps=6 format=3 uid="uid://8rwn73t6cfuo"]
+[gd_scene load_steps=6 format=3 uid="uid://d0et4qxf1rgfv"]
 
 [ext_resource type="Texture2D" uid="uid://eabav8704xuv" path="res://Textures/AirborneMainMenu.jpg" id="1_mfxwm"]
 [ext_resource type="Script" path="res://newmainmenu.gd" id="1_vegq8"]
