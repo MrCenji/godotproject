@@ -1,0 +1,25 @@
+[gd_scene load_steps=3 format=3 uid="uid://d3oinnsmbv35r"]
+
+[ext_resource type="PackedScene" uid="uid://cypgwifolwvu4" path="res://mainmenu.tscn" id="1_amaol"]
+[ext_resource type="Texture2D" path="res://gigglebaitpost.png" id="1_x3swf"]
+
+[node name="MainMenuScene" type="Node2D"]
+
+[node name="TextureRect" type="TextureRect" parent="."]
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = -56.0
+offset_top = -288.0
+offset_right = 1024.0
+offset_bottom = 792.0
+grow_horizontal = 2
+grow_vertical = 2
+scale = Vector2(1.2, 1.228)
+texture = ExtResource("1_x3swf")
+
+[node name="Menu" parent="." instance=ExtResource("1_amaol")]
+offset_left = 576.0
+offset_top = 320.0
+offset_right = 576.0
+offset_bottom = 320.0
