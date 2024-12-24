@@ -1,9 +1,14 @@
+<<<<<<< HEAD:mainmenu.tscn
 [gd_scene load_steps=2 format=3 uid="uid://brjyirangnomh"]
+=======
+[gd_scene load_steps=2 format=3 uid="uid://b7inap5yp167f"]
+>>>>>>> 9fc3a4ece79bc88dfb82a9931c7c0564deab2737:Scenes/mainmenu.tscn
 
-[ext_resource type="Script" path="res://mainmenu.gd" id="1_2hynp"]
+[ext_resource type="Script" path="res://scripts/mainmenu.gd" id="1_2hynp"]
 
 [node name="Menu" type="Control"]
 layout_mode = 3
+<<<<<<< HEAD:mainmenu.tscn
 anchors_preset = 15
 anchor_right = 1.0
 anchor_bottom = 1.0
@@ -11,6 +16,13 @@ offset_left = 184.0
 offset_top = 129.0
 offset_right = 184.0
 offset_bottom = 129.0
+=======
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+>>>>>>> 9fc3a4ece79bc88dfb82a9931c7c0564deab2737:Scenes/mainmenu.tscn
 grow_horizontal = 2
 grow_vertical = 2
 script = ExtResource("1_2hynp")

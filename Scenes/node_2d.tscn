@@ -1,7 +1,7 @@
 [gd_scene load_steps=5 format=3 uid="uid://cyu8mdpfitfns"]
 
-[ext_resource type="Texture2D" uid="uid://gs1vguiaeb1" path="res://icon.svg" id="1_q4jer"]
-[ext_resource type="PackedScene" uid="uid://b3m3xvjfafgid" path="res://character_body_2d.tscn" id="2_i3lwp"]
+[ext_resource type="Texture2D" uid="uid://gs1vguiaeb1" path="res://Textures/icon.svg" id="1_q4jer"]
+[ext_resource type="PackedScene" uid="uid://b3m3xvjfafgid" path="res://Scenes/character_body_2d.tscn" id="2_i3lwp"]
 
 [sub_resource type="CanvasItemMaterial" id="CanvasItemMaterial_4pbir"]
 blend_mode = 1

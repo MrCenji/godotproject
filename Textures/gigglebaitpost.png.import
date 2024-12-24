@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://cxhpskmpf0qgo"
-path="res://.godot/imported/gigglebaitpost.png-e9170f3a0116000524437f25acd0dc79.ctex"
+path="res://.godot/imported/gigglebaitpost.png-6bc3645f8335cbdd9f1b0ed1c1079eb5.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://gigglebaitpost.png"
-dest_files=["res://.godot/imported/gigglebaitpost.png-e9170f3a0116000524437f25acd0dc79.ctex"]
+source_file="res://Textures/gigglebaitpost.png"
+dest_files=["res://.godot/imported/gigglebaitpost.png-6bc3645f8335cbdd9f1b0ed1c1079eb5.ctex"]
 
 [params]
 
