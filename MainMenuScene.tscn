@@ -1,7 +1,7 @@
-[gd_scene load_steps=3 format=3 uid="uid://crjkir37qokx7"]
+[gd_scene load_steps=3 format=3 uid="uid://d3oinnsmbv35r"]
 
-[ext_resource type="PackedScene" uid="uid://brjyirangnomh" path="res://mainmenu.tscn" id="1_amaol"]
-[ext_resource type="Texture2D" uid="uid://cxhpskmpf0qgo" path="res://gigglebaitpost.png" id="1_x3swf"]
+[ext_resource type="PackedScene" uid="uid://cypgwifolwvu4" path="res://mainmenu.tscn" id="1_amaol"]
+[ext_resource type="Texture2D" path="res://gigglebaitpost.png" id="1_x3swf"]
 
 [node name="MainMenuScene" type="Node2D"]
 
