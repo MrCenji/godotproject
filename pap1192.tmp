@@ -1,0 +1,24 @@
+[gd_scene load_steps=4 format=3 uid="uid://brs31h5lrtso8"]
+
+[ext_resource type="Script" path="res://paper_airplane.gd" id="1_02iaa"]
+[ext_resource type="Texture2D" uid="uid://cgsln2krvrcqc" path="res://Textures/PaperAirplane-01.png" id="1_qm6pi"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_i6hxl"]
+size = Vector2(82, 43)
+
+[node name="PaperAirplaneGame" type="Node2D"]
+
+[node name="PaperAirplane" type="CharacterBody2D" parent="."]
+script = ExtResource("1_02iaa")
+
+[node name="Sprite2D" type="Sprite2D" parent="PaperAirplane"]
+scale = Vector2(0.2, 0.2)
+texture = ExtResource("1_qm6pi")
+
+[node name="Camera2D" type="Camera2D" parent="PaperAirplane"]
+position_smoothing_enabled = true
+rotation_smoothing_enabled = true
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="PaperAirplane"]
+position = Vector2(0, 1.5)
+shape = SubResource("RectangleShape2D_i6hxl")

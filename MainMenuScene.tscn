@@ -1,7 +1,17 @@
-[gd_scene load_steps=3 format=3 uid="uid://b3chpn1ivehmq"]
+[gd_scene load_steps=6 format=3 uid="uid://b3chpn1ivehmq"]
 
 [ext_resource type="PackedScene" uid="uid://b7inap5yp167f" path="res://mainmenu.tscn" id="1_amaol"]
-[ext_resource type="Texture2D" uid="uid://cxhpskmpf0qgo" path="res://gigglebaitpost.png" id="1_x3swf"]
+
+[sub_resource type="Curve" id="Curve_1k0v5"]
+
+[sub_resource type="Curve" id="Curve_dbc2c"]
+
+[sub_resource type="Curve" id="Curve_7apcc"]
+
+[sub_resource type="CurveXYZTexture" id="CurveXYZTexture_5aepx"]
+curve_x = SubResource("Curve_1k0v5")
+curve_y = SubResource("Curve_dbc2c")
+curve_z = SubResource("Curve_7apcc")
 
 [node name="MainMenuScene" type="Node2D"]
 
@@ -9,14 +19,11 @@
 anchors_preset = 15
 anchor_right = 1.0
 anchor_bottom = 1.0
-offset_left = -56.0
-offset_top = -288.0
-offset_right = 1024.0
-offset_bottom = 792.0
+offset_right = 1152.0
+offset_bottom = 657.0
 grow_horizontal = 2
 grow_vertical = 2
-scale = Vector2(1.2, 1.228)
-texture = ExtResource("1_x3swf")
+texture = SubResource("CurveXYZTexture_5aepx")
 
 [node name="Menu" parent="." instance=ExtResource("1_amaol")]
 offset_left = 576.0
