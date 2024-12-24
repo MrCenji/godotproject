@@ -11,9 +11,9 @@ config_version=5
 [application]
 
 config/name="ProjectDiddy"
-run/main_scene="res://options_menu.tscn"
+run/main_scene="res://Scenes/options_menu.tscn"
 config/features=PackedStringArray("4.3", "Forward Plus")
-config/icon="res://icon.svg"
+config/icon="res://Textures/icon.svg"
 
 [input]
 
