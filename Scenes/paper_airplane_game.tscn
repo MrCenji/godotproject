@@ -12,11 +12,6 @@ size = Vector2(40, 94)
 [node name="PaperAirplane" type="RigidBody2D" parent="."]
 gravity_scale = 0.75
 script = ExtResource("1_du8bt")
-gravity_force = 100.0
-drag = 0.5
-boost_force = 5000.0
-max_boost_time = 3.0
-boost_cooldown = 1.0
 
 [node name="Camera2D" type="Camera2D" parent="PaperAirplane"]
 position_smoothing_speed = 0.0

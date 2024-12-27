@@ -1,12 +1,12 @@
 extends RigidBody2D
 
 # Variables for gliding physics
-@export var gravity_force: float = 300.0
-@export var lift_force: float = 200.0
+@export var gravity_force: float = 100.0
+@export var lift_force: float = 500.0
 @export var drag: float = 0.1
-@export var boost_force: float = 1500.0
-@export var max_boost_time: float = 1.5
-@export var boost_cooldown: float = 0.0
+@export var boost_force: float = 2500
+@export var max_boost_time: float = 3
+@export var boost_cooldown: float = 1
 
 # State variables
 var is_boosting: bool = false
@@ -15,7 +15,7 @@ var cooldown_timer: float = 0.0
 
 func _ready():
 	# Set initial velocity to simulate initial launch
-	linear_velocity = Vector2(200, 0)  # Moving to the right initially
+	linear_velocity = Vector2(500, 0)  # Moving to the right initially
 
 func _physics_process(delta: float):
 	# Apply gravity (pulls downward)
